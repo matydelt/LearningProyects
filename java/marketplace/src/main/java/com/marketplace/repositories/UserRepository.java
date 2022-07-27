@@ -1,2 +1,4 @@
-package com.marketplace.repositories;public class UserRepository {
+package com.marketplace.repositories;
+
+public class UserRepository {
 }

@@ -1,2 +1,4 @@
-package com.marketplace.services;public class UserService {
+package com.marketplace.services;
+
+public class UserService {
 }

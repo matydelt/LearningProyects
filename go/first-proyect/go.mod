@@ -2,12 +2,14 @@ module first
 
 go 1.18
 
-require gorm.io/gorm v1.23.4
+require (
+	github.com/labstack/echo/v4 v4.7.2
+	gorm.io/gorm v1.23.4
+)
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
-	github.com/labstack/echo/v4 v4.7.2 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
